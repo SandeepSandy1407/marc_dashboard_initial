@@ -1,0 +1,187 @@
+.action-img{
+    width:32px;
+}
+.additional-img{
+    width:25px;
+    margin-right:10px;
+}
+.back-buttton{
+    border:0px;
+    background-color: transparent;
+    margin-right: 35px;
+}
+.nav-container-menu{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    font-weight: 600;
+    color:rgb(69, 69, 68);
+    padding: 0px;
+}
+.action-container-menu{
+    background-color: #66c6e9;
+    border-radius: 6px;
+    color:#fff;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+.top-container-menu{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.status-container-menu{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.vertical-line-menu{
+    width:15px;
+}
+.previous-next-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    margin-left:10px;
+}
+.queue-list-container{
+    list-style-type: none;
+    overflow-y: scroll;
+    margin-left: 0px;
+    padding: 0px;
+}
+.queue-list-item{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+.Solid-color{
+    height:16px;
+    border-radius:2px;
+    width:5px;
+    background-color: black;
+}
+.robot-name-menu{
+    color:rgb(70, 66, 66);
+    font-weight:400;
+}
+.queue-yellow-line{
+    color:rgb(198, 198, 67);
+    font-size:13px;
+}
+.queue-status-robot{
+    color:rgb(70, 66, 66);
+    font-weight:400;
+}
+.queue-add-btn{
+    border:0px;
+    background-color: transparent;
+    align-self: flex-end;
+    margin-top: 150px;
+    margin-left:70%;
+
+}
+.menu-create-img{
+    width:30px;
+}
+.clr1{
+    background-color: rgb(37, 146, 248);
+
+}
+.clr2{
+    background-color: rgb(9, 164, 55);
+    
+}
+.clr3{
+    background-color: rgb(187, 209, 17);
+    
+}
+@media(max-width:769px){
+    .action-img{
+        width:22px;
+    }
+    .additional-img{
+        width:18px;
+        margin-right:10px;
+    }
+    .back-buttton{
+        border:0px;
+        background-color: transparent;
+        margin-right: 10px;
+    }
+    .action-container-menu{
+        background-color: #66c6e9;
+        border-radius: 5px;
+        color:#fff;
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+    .vertical-line-menu{
+        width:10px;
+    }
+    .previous-next-container{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: center;
+        margin-left:8px;
+    }
+    .queue-list-container{
+        list-style-type: none;
+        overflow-y: scroll;
+        margin-left: 0px;
+        padding: 0px;
+    }
+    .Solid-color{
+        height:16px;
+        border-radius:2px;
+        width:4px;
+        background-color: black;
+    }
+    .robot-name-menu{
+        color:rgb(70, 66, 66);
+        font-weight:400;
+        font-size: 13px;
+    }
+    .queue-yellow-line{
+        color:rgb(198, 198, 67);
+        font-size:10px;
+    }
+    .queue-status-robot{
+        color:rgb(70, 66, 66);
+        font-weight:400;
+        font-size: 13px;
+    }
+    .queue-add-btn{
+        border:0px;
+        background-color: transparent;
+        align-self: flex-end;
+        margin-top: 90px;
+        margin-left:70%;
+    
+    }
+    .menu-create-img{
+        width:30px;
+    }
+    .clr1{
+        background-color: rgb(37, 146, 248);
+    
+    }
+    .clr2{
+        background-color: rgb(9, 164, 55);
+        
+    }
+    .clr3{
+        background-color: rgb(187, 209, 17);
+        
+    }
+    .queue-status-text{
+        font-size: 13px;
+    }
+    
+}

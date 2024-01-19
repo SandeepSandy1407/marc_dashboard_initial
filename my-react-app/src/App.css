@@ -1,0 +1,476 @@
+/* tool Container*/
+.tools-container{
+  width:20vw;
+  border-right: solid 2px #7c827d;
+  background-color: #ffffff;
+  padding:10px;
+  height:100vh;
+  }
+  .sec-tools-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+  }
+  .tools-img-size{
+    width:200px
+  }
+  .tools-image{
+    width:90px;
+    padding: 10px;
+  }
+  .tools-image-create{
+    width:90px;
+    padding: 10px;
+  }
+  
+/*Ax Clean Container*/
+/*Ax Dolly Container*/
+/*Ax Astro Container*/
+  .robot-prop-container{
+    background-color: #ffffff;
+    box-shadow: 3px 5px #a4a5a4;
+    border-radius: 3px;
+    height:300px;
+    width: 250px;
+    position: absolute;
+  }
+  .robot-prop-container-popup{
+    background-color: #ffffff;
+    box-shadow: 3px 5px #a4a5a4;
+    border-radius: 3px;
+    position: absolute;
+  }
+  .robot-name-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+  }
+  .solid-ball{
+    height:10px;width:10px;
+    border:0px;
+    margin-right: 5px;
+    background-color: transparent;
+    border-radius: 50%;
+    }
+  .property-heading1{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+  }
+  .Robot-name{
+    margin-right:6px;
+    margin-left:15px;
+  }
+  .Abort-btn{
+    background-color: transparent;
+    border: 0px;
+    font-weight: 600;
+  }
+  .Select-btn{
+    height: 45px;
+    width: 120px;
+    border-radius: 60px;
+    font-weight:600;
+    font-size: 17px;
+    color:white;
+    border: 0px;
+    margin:15px
+  }
+  .r1{
+    color:rgb(213, 213, 75);
+  }
+  .r2{
+  color:rgb(81, 189, 81);
+  }
+  .r3{
+  color:skyblue;
+  }
+  .rb-clr1{
+    background-color: rgb(213, 213, 75);
+    }
+  .rb-clr2{
+    background-color: rgb(81, 189, 81);
+  }
+  .rb-clr3{
+    background-color: skyblue;
+  }
+  .properties-list-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: flex-start;
+  
+  }
+  .propety-container{
+    list-style-type: none;
+    color:rgb(56, 54, 54);
+    font-weight: 500;
+  }
+  .value-container{
+    list-style-type: none;
+    color:#0d0e0e;
+    font-weight: 400;
+  }
+
+
+
+
+/*head container*/
+  .nav-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #66c6e9;
+    height: 10vh;
+  }
+  .menu-button{
+    align-self: center;
+    width:10vw;
+    background-color: transparent;
+    border: 0px;
+  }
+  .menu-image{
+    width:50px;
+    padding:15px
+  }
+  .nav-head{
+    font-size: 36px;
+    color:rgb(30, 27, 27);
+  }
+    
+/*content and Map Containers*/
+  .map-container{
+    background-image: url("https://res.cloudinary.com/dg9wsic7j/image/upload/v1705578611/1-10-inch-plain-graph-letter_zabdpl.jpg");
+    background-size: cover;
+    width:100vw;
+    height: 100vh;
+    display:grid;
+    padding: 4rem;
+    gap:1rem;
+    grid-template-rows: repeat(6,1fr);
+    grid-template-columns: repeat(6,1fr);
+    background-blend-mode: color-burn;
+    
+    
+  }
+  .main-heading{
+    grid-column-start: 1;
+    grid-column-end: 4;
+  }
+  .robo1{
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 1;
+    grid-row-end: 2;
+    color:rgb(54, 54, 2);
+  }
+  .robo2{
+    grid-column-start: 3;
+    grid-column-end: 4;
+    grid-row-start: 3;
+    grid-row-end: 4;
+    color:rgb(1, 29, 1);
+  }
+  .robo3{
+    grid-column-start: 7;
+    grid-column-end: 8;
+    grid-row-start: 4;
+    grid-row-end: 5;
+    color:rgb(1, 28, 39);
+  }
+  
+  .name-style{
+    font-weight: 700;
+    font-size: 20px;
+  }
+  .content-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: space-between;
+    height: 90vh;
+  }
+  .solid-ball-queue{
+    border:0px;
+    background-color: transparent;
+    margin:0px;
+    padding:0px;
+    width:100%;
+  }
+  .menu-image-rbt{
+    width:70px;
+    padding:15px
+  }
+
+
+
+
+
+
+
+
+
+
+
+@media(max-width:769px){
+
+  .nav-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #95cade;
+    background-size: cover;
+  }
+  .menu-button{
+    align-self: center;
+    background-color: transparent;
+    border: 0px;
+  }
+  .menu-image{
+    width:30px;
+    padding:5px;
+    margin:5px;
+  }
+  .nav-head{
+    font-size: 28px;
+    color:white;
+  }
+  .tools-container{
+    background-color: #ffffff;
+    padding:10px
+    }
+    .tools-img-size{
+      width:35px
+    }
+    .tools-image{
+      width:35px;
+      padding: 2px;
+    }
+    .tools-image-create{
+      width:35px;
+      padding: 2px;
+    }
+    .menu-item-name{
+      font-size:12px;
+    }
+
+
+
+
+/*toolsContainer*/
+    .tools-container{
+      width:45vw;
+      border-right: solid 2px #7c827d;
+      background-color: #ffffff;
+      padding:5px;
+      height:100vh;
+      text-align: center;
+      }
+      .sec-tools-container{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+      }
+      .tools-img-size{
+        width:80px
+      }
+      .tools-image{
+        width:40px;
+        padding: 4px;
+      }
+      .tools-image-create{
+        width:40px;
+        padding: 4px;
+      }
+
+
+
+/*Ax Clean Container*/
+/*Ax Dolly Container*/
+/*Ax Astro Container*/
+
+      .robot-prop-container{
+        background-color: #ffffff;
+        box-shadow: 3px 5px #a4a5a4;
+        border-radius: 3px;
+        display: none;
+        position: absolute;
+      }
+      .robot-prop-container-popup{
+        background-color: #ffffff;
+        box-shadow: 3px 5px #a4a5a4;
+        border-radius: 3px;
+        position: absolute;
+      }
+      .robot-name-container{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+      }
+      .solid-ball{
+        height:8px;width:8px;
+        border:0px;
+        margin-right: 3px;
+        background-color: transparent;
+        border-radius: 50%;
+        }
+      .property-heading1{
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-start;
+        align-items: center;
+      }
+      .Robot-name{
+        margin-right:5px;
+        margin-left:13px;
+        font-size: 22px;
+      }
+      .Abort-btn{
+        background-color: transparent;
+        border: 0px;
+        font-weight: 600;
+      }
+      .Select-btn{
+        height: 30px;
+        width: 80px;
+        border-radius: 40px;
+        font-weight:600;
+        font-size: 13px;
+        color:white;
+        border: 0px;
+      }
+      .properties-list-container{
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-start;
+        align-items: flex-start;
+        margin-top:0px;
+        padding-top:0px;
+      
+      }
+      .propety-container{
+        list-style-type: none;
+        color:rgb(56, 54, 54);
+        font-weight: 500;
+        margin-top:0px;
+        padding-top:0px;
+      }
+      .value-container{
+        list-style-type: none;
+        color:#0d0e0e;
+        font-weight: 400;
+        margin-top:0px;
+        padding-top:0px;
+      }
+
+
+
+/*head container*/
+  .nav-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #66c6e9;
+    height: 10vh;
+    width:140vw;
+    flex-grow:1;
+  }
+  .menu-button{
+    align-self: center;
+    background-color: transparent;
+    border: 0px;
+  }
+  .menu-image{
+    width:34px;
+    padding:5px
+  }
+  .nav-head{
+    font-size: 26px;
+    color:rgb(30, 27, 27);
+  }
+  .app-header{
+    width:100%;
+    flex-grow:100;
+  }
+
+
+
+
+
+  /*content and Map Containers*/
+  .map-container{
+    background-image: url("https://img.freepik.com/free-photo/flat-lay-drawing-with-colorful-lines_23-2148897958.jpg?w=996&t=st=1705645014~exp=1705645614~hmac=97275c720743cfb149618b9f4b92aa979b772c18149c73cfafa058354a7fede4");
+    background-size: cover;
+    width:100vw;
+    height: 100vh;
+    display:grid;
+    padding: 4rem;
+    gap:1rem;
+    grid-template-rows: repeat(6,1fr);
+    grid-template-columns: repeat(6,1fr);
+    background-blend-mode: color-burn;
+    
+    
+  }
+  .main-heading{
+    grid-column-start: 1;
+    grid-column-end: 4;
+  }
+  .robo1{
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 1;
+    grid-row-end: 2;
+    color:rgb(54, 54, 2);
+    font-size:14px;
+  }
+  .robo2{
+    grid-column-start: 3;
+    grid-column-end: 4;
+    grid-row-start: 3;
+    grid-row-end: 4;
+    color:rgb(1, 29, 1);
+    font-size:14px;
+  }
+  .robo3{
+    grid-column-start: 7;
+    grid-column-end: 8;
+    grid-row-start: 4;
+    grid-row-end: 5;
+    color:rgb(1, 28, 39);
+    font-size:14px;
+  }
+  
+  .name-style{
+    font-weight: 700;
+    font-size: 18px;
+  }
+  .content-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: space-between;
+    height: 90vh;
+  }
+  .solid-ball-queue{
+    border:0px;
+    background-color: transparent;
+    margin:0px;
+    padding:0px;
+    width:100%;
+  }
+  .menu-image-rbt{
+    width:50px;
+    padding:5px
+  }
+
+}
