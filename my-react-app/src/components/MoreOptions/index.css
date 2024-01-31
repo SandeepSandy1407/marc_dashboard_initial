@@ -1,0 +1,45 @@
+.more-options-image-style{
+    width:30px
+}
+.more-options-outer-container{
+    position: fixed;
+    top:0;
+    left:0;
+    width:100vw;
+    height:100vh;
+    background-color: rgba(0,0,0,0.2);
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding:10px
+}
+.more-options-inner-container{
+    position: relative;
+    padding: 0px;
+    width: 15vw;
+    height:90vh;
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+}
+.more-options-button{
+    border: 0px;
+    background-color: transparent;
+    padding: 0px;
+    margin: 0px;
+}
+.more-options-inner-container .close-btn{
+    position: absolute;
+    top:10vh;
+    right: 0px;
+    border:0px;
+    background-color:#fff;
+}
+.image-containers-more-options{
+    width:100%;
+    padding: 10px;
+    margin:10px;
+
+}

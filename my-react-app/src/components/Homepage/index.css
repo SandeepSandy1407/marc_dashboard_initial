@@ -1,0 +1,17 @@
+*{
+    body{
+        padding:0px;
+        margin:0px;
+        border:0px;
+    }
+}
+
+.App-homepage{
+    display: flex;
+    flex-direction: column;
+    width:100vw;
+}
+.Below-container{
+    display: flex;
+    flex-direction: row;
+}

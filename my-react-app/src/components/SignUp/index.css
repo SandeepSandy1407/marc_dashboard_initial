@@ -1,0 +1,76 @@
+.sign-up-main-background{
+    background-image: url("https://img.freepik.com/free-vector/low-poly-abstract-background_1048-7981.jpg?w=740&t=st=1706593219~exp=1706593819~hmac=61781701814c4f24fbab5d5e4927a11a59ff365441884e4a7c22e70aa487a82e");
+    border:5vh solid #010d12;
+    background-size: cover;
+    color:black;
+    padding:10vh;
+}
+.sign-up-inner-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding:10px;
+    background-color: transparent;
+    border: 2px solid rgb(9, 13, 13);
+    border-radius: 10px;
+    height:80vh
+}
+.sign-up-empty-container{
+    border-right: 2px solid #010d12 ;
+    height:75vh;
+    margin-left: 10rem;
+}
+.sign-up-image-style{
+    width:25vw;
+    border-radius: 8px;
+}
+.sign-up-form-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    align-self: center;
+    height:100%;
+    width:80%;
+    color:black;
+    margin-left:3rem;
+}
+.image-container-sign-up{
+    width:30vw;
+    
+    margin-left:7rem;
+}
+.sign-up-font-style{
+    color:#9e130e;
+    font-weight:500;
+    padding:10px;
+}
+.sign-up-input-field{
+    border:2px solid #9e130e ;
+    background-color:transparent;
+    border-radius: 4px;
+    color:#032625;
+    font-style:oblique;
+    font-weight: 500;
+}
+.sign-up-inp-field-container{
+    margin:10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
+.sign-up-submit-button{
+    margin-top:20px;
+    background-color:#39a4c4;
+    color:white;
+    border:0px;
+    border-radius: 4px;
+    font-weight: 500;
+    padding:5px;
+    height:40px;
+    width:105px;
+    font-size: 18px;
+}
